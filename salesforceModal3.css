@@ -1,0 +1,236 @@
+* {
+    box-sizing: border-box;
+}
+
+.body {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: gray;
+}
+
+.close-svg {
+    position: absolute;
+    left: 98%;
+    top: -15%;
+}
+
+.modal {
+    position: absolute;
+    width: 700px;
+    height: 553px;
+    left: 610px;
+    top: 238px;
+    background: #ffffff;
+    border-radius: 6px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.logo {
+    margin: 0 auto;
+}
+
+.close-svg svg {
+    margin-top: 20px;
+    left: 50%;
+    top: 0%;
+    transform: translate(-50%, 0%);
+    position: absolute;
+}
+
+.modal-title {
+    height: 87px;
+    border-bottom: 2px solid #dddbda;
+}
+
+.modal-title h6 {
+    left: 50%;
+    top: 0%;
+    transform: translate(-50%, 0%);
+    position: absolute;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 22px;
+    color: #080707;
+}
+
+.modal-condition {
+    height: 300px;
+    border-bottom: 2px solid #dddbda;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.modal-condition-header {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.modal-condition-header p {
+    width: 50%;
+    left: 5%;
+    position: absolute;
+}
+
+.modal-condition-header svg {
+    left: 90%;
+    top: 18%;
+    position: absolute;
+}
+
+.modal-condition-block {
+    top: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    background: #f8f8f8;
+    padding: 5px;
+}
+
+.modal-condition-block p {
+    margin: 8px 0px;
+}
+
+.callerId {
+    background: #ffffff;
+    border: 1px solid #dddbda;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 200px;
+    height: 32px;
+}
+
+.searchFor {
+    width: 101px;
+    background: #ffffff;
+    border: 1px solid #dddbda;
+    box-sizing: border-box;
+    border-radius: 4px;
+    height: 32px;
+}
+
+.modal-condition-block input {
+    height: 32px;
+}
+
+.modal-condition-block input {
+    width: 170px;
+    height: 32px;
+    background: #f8f8f8;
+    border: 1px solid #dddbda;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.modal-condition-logic p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 20px;
+    color: #080707;
+}
+
+.modal-condition-logic svg {
+    margin: 15px;
+}
+
+.modal-condition-logic {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    left: 50%;
+    top: 60%;
+    transform: translate(18%, 10%);
+}
+
+.modal-condition-logic-input input {
+    background: #ffffff;
+    border: 1px solid #dddbda;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: #dddbda;
+    width: 482px;
+    height: 32px;
+    left: 10%;
+    padding: 0px 20px;
+}
+
+.modal-condition-logic-input {
+    left: 50%;
+    top: 50%;
+    transform: translate(18%, 15%);
+}
+
+.modal-transfer {
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    border-bottom: 2px solid #dddbda;
+}
+
+.transfer-select {
+    width: 318px;
+    height: 32px;
+    border: 1px solid #dddbda;
+    box-sizing: border-box;
+    border-radius: 4px;
+    left: 50%;
+    top: 60%;
+    transform: translate(60%, -20%);
+}
+
+.modal-transfer p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #8d8d8d;
+    left: 50%;
+    top: 50%;
+    transform: translate(28%, -10%);
+}
+
+.white-btn {
+    position: absolute;
+    width: 83px;
+    height: 32px;
+    left: 78%;
+    top: 30%;
+    transform: translate(-60%, -5%);
+    background: #FFFFFF;
+    border: 1px solid #DDDBDA;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: #006DCC;
+}
+
+.blue-btn {
+    position: absolute;
+    width: 83px;
+    height: 32px;
+    left: 92%;
+    top: 30%;
+    transform: translate(-65%, -5%);
+    background: #006DCC;
+    border-radius: 4px;
+    color: #FFFFFF;
+}
+
+.modal-with-btn {
+    height: 76px;
+    position: relative;
+    background-color: #F3F2F2;
+    border-radius: 0px 0px 6px 6px;
+
+}
